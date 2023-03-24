@@ -30,7 +30,7 @@ while True:
         creature1.append(f"Stamina: {stamina}")
         creature1.append(f"Weight: {weight}")
         creature1.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature1.append(f"Oxygen:{oxygen}:")
             creature1.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")
@@ -41,7 +41,7 @@ while True:
         creature2.append(f"Stamina: {stamina}")
         creature2.append(f"Weight: {weight}")
         creature2.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature2.append(f"Oxygen:{oxygen}:")
             creature2.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")
@@ -53,7 +53,7 @@ while True:
         creature3.append(f"Stamina: {stamina}")
         creature3.append(f"Weight: {weight}")
         creature3.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature3.append(f"Oxygen:{oxygen}:")
             creature3.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")
@@ -64,7 +64,7 @@ while True:
         creature4.append(f"Stamina: {stamina}")
         creature4.append(f"Weight: {weight}")
         creature4.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature4.append(f"Oxygen:{oxygen}:")
             creature4.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")
@@ -75,7 +75,7 @@ while True:
         creature5.append(f"Stamina: {stamina}")
         creature5.append(f"Weight: {weight}")
         creature5.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature5.append(f"Oxygen:{oxygen}:")
             creature5.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")
@@ -85,7 +85,7 @@ while True:
         creature6.append(f"Stamina: {stamina}")
         creature6.append(f"Weight: {weight}")
         creature6.append(f"Melee: {melee}")
-        if all=="a":
+        if stats=="a":
             creature6.append(f"Oxygen:{oxygen}:")
             creature6.append(f"Food:{food}")
             creature1.append(f"Movement speed:{speed}")

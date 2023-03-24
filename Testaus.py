@@ -1,25 +1,48 @@
-creature1=[]
+"""from colorama import Fore                                                            # We pass **kwargs so we can use other print() function's keyword arguments, such as end and sep.
 
-while True:
-    stats=input("All or important stats:(A/I), (Q) for quit:")
-    quit=stats.lower()
-    all=stats.lower()
-    important=stats.lower()
+FORES = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE]
 
-    if stats!="a" or stats!="i" or stats!="q":
-        print("Wrong input, try again!")
-    elif quit=="q":
-        break
+def print_with_color(s, color=Fore.WHITE,**kwargs):                                  
+    print(f"{color}{s}", **kwargs)
+    sana=input("Anna sana:")
+
+for fore in FORES:
     
-    amount=int(input("How many creatures?"))
+        print_with_color("Hello world!", color=fore,)"""
+
+from colorama import Fore
+
+FORES=[Fore.RED,Fore.BLUE,Fore.YELLOW,Fore.GREEN]
+crature="Rex"
+creature=input("Creature:")
+
+def colored_stats(s,color=Fore.RED,**kwargs):
+    print(f"{color}{s}")
     healt=input("Healt:")
     
-    if all=="a":
-        oxygen=input("Oxygen:")
+for fore in FORES:
+    print("")
+    colored_stats(f"Creature:{creature}",color=fore)
+
+print(Fore.RESET)
+
+
+from colorama import Fore
+
+FORES=[Fore.RED,Fore.BLUE,Fore.YELLOW,Fore.GREEN]
+creature=input("Creature:")
+amount=7
+
+
+def colored_stats(s,color=Fore.RED,**kwargs):
+    print(f"{color}{s}")
+    healt=input("Healt:")
     
-    if creature1==[]:
-        creature1.append(f"Healt: {healt}")
-        if all=="a":
-            creature1.append(f"Oxygen:{oxygen}:")
-    
-    print(creature1)
+for fore in FORES:
+    print("")
+    colored_stats(f"Creature:{creature}",color=fore)
+    amount-=1
+    if amount==0:
+        break
+
+print(Fore.RESET)
